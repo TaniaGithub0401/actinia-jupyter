@@ -1,0 +1,10 @@
+name: Test notebook security scan
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    uses: TaniaGithub0401/github-workflows/.github/workflows/sbom-vulnerability-scan.yml@add-notebook-security-scan
+    with:
+      notebooks: notebooks
