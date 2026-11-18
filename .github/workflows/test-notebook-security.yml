@@ -9,3 +9,5 @@ jobs:
     with:
       notebooks: notebooks
       detect-secrets-baseline: .github/notebook-secrets-baseline.json
+      scan-git-history: true
+  
